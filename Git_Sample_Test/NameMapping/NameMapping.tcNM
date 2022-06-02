@@ -115,7 +115,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://v-portal-ui.vportalstg.koreabuild.com/reservation" />
+										<Value Value="https://v-portal-ui.vportalstg.koreabuild.com/reservation*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -149,6 +149,105 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="linkShowtermsacception" Key="{C30F8299-C49B-4820-879B-6392FBFE640C}">
+										<Image FileName="-254795171" Left="637" Top="1262" Right="766" Bottom="1284" />
+										<TypeInfo Item0="{5F62055A-332C-4D7C-B584-CD45C0B6691D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#showTermsAcception" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;서비스 이용약관&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="button2" Key="{6F5CFE95-4445-493B-B4AD-06446A8CA88C}">
+										<Image FileName="-1253441142" Left="1615" Top="456" Right="1632" Bottom="474" />
+										<TypeInfo Item0="{008FD06E-01F4-4F11-93CB-074245584793}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(., &apos;Close&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/div/div/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;close&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;TermsAcceptionModal&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/div/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkShowpersonalinfoterm" Key="{130859B0-D390-41BA-9D2F-CA68FD00DF6D}">
+										<Image FileName="-642109958" Left="793" Top="1262" Right="937" Bottom="1284" />
+										<TypeInfo Item0="{5F62055A-332C-4D7C-B584-CD45C0B6691D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#showPersonalInfoTerm" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;개인정보처리방침&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//footer//a[contains(@class, &apos;danger&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="button3" Key="{A1D2873B-33E0-4374-8E6B-1A637AC56832}">
+										<Image FileName="915358139" Left="1615" Top="456" Right="1632" Bottom="474" />
+										<TypeInfo Item0="{008FD06E-01F4-4F11-93CB-074245584793}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(., &apos;Close&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/div/div/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;close&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;PrivacyPolicyModal&apos;]//div/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/div/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkShowsystemnotice" Key="{BC082A7C-952E-47AA-9019-89ADC48C282D}">
+										<Image FileName="-961103042" Left="964" Top="1262" Right="1035" Bottom="1284" />
+										<TypeInfo Item0="{5F62055A-332C-4D7C-B584-CD45C0B6691D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#showSystemNotice" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;공지사항&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="button4" Key="{57F074FB-CBCC-4A80-AA1E-6C84D931EFF7}">
+										<Image FileName="-1322983049" Left="1616" Top="400" Right="1633" Bottom="418" />
+										<TypeInfo Item0="{008FD06E-01F4-4F11-93CB-074245584793}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(., &apos;Close&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/div/div/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;close&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/div/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 						</Children>
@@ -168,6 +267,12 @@
 			<Child Name="pageLgVisitReservationLg2" Owner="{4E77A4D5-C9AC-4354-8495-D088CA6BE5E4}">
 				<Child Name="panel" Owner="{5B052643-58FB-498B-BBB3-A6C92E1F22DF}" />
 				<Child Name="button" Owner="{D0ABEB9C-BF73-473C-ADC0-26F007FA4F6E}" />
+				<Child Name="linkShowtermsacception" Owner="{C30F8299-C49B-4820-879B-6392FBFE640C}" />
+				<Child Name="button2" Owner="{6F5CFE95-4445-493B-B4AD-06446A8CA88C}" />
+				<Child Name="linkShowpersonalinfoterm" Owner="{130859B0-D390-41BA-9D2F-CA68FD00DF6D}" />
+				<Child Name="button3" Owner="{A1D2873B-33E0-4374-8E6B-1A637AC56832}" />
+				<Child Name="linkShowsystemnotice" Owner="{BC082A7C-952E-47AA-9019-89ADC48C282D}" />
+				<Child Name="button4" Owner="{57F074FB-CBCC-4A80-AA1E-6C84D931EFF7}" />
 			</Child>
 		</Child>
 	</LogicalNodes>

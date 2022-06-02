@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{41D9FDE1-201C-495C-9886-B3F18CC024AA}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{2F76D721-9792-47DA-8BE6-03096E1C3E1C}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{E12C84A0-1F04-40C2-AD6E-A57EA4A68365}">
+								<Image FileName="-747876610" Left="0" Top="0" Right="1621" Bottom="1411" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageLgVisitReservationLg" Key="{CB8DB9E5-2CAF-4A7B-9398-66BAE496E564}">
+								<Image FileName="519883438" Left="8" Top="112" Right="1613" Bottom="1403" />
+								<TypeInfo Item0="{21D2439D-5D4C-4A68-89C9-53E60CB5CA30}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://v-portal-ui.vportalstg.koreabuild.com/login*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="linkLoginformchanger" Key="{AC08E71F-3E81-4481-B401-D32D4934E9E2}">
+										<Image FileName="-1794829135" Left="426" Top="811" Right="469" Bottom="830" />
+										<TypeInfo Item0="{5F62055A-332C-4D7C-B584-CD45C0B6691D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#loginFormChanger" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;로그인&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;link-with-margin-right&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxEmailid" Key="{6A0CE1CB-F90E-403E-9CE9-0AEDD29F2787}">
+										<Image FileName="-675440426" Left="429" Top="471" Right="829" Bottom="519" />
+										<TypeInfo Item0="{69023C41-DE1C-491F-8BB0-EBC3163521D1}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#emailId" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;emailId&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;formik-field&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;LoginForm&apos;]//div/div/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{1475923D-D284-4788-B92A-88CD7EE377AF}">
+										<Image FileName="215434646" Left="429" Top="569" Right="829" Bottom="617" />
+										<TypeInfo Item0="{69023C41-DE1C-491F-8BB0-EBC3163521D1}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#password" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[2]//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;LoginForm&apos;]//div[2]/div/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[2]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageLgVisitReservationLg2" Key="{4E77A4D5-C9AC-4354-8495-D088CA6BE5E4}">
+								<Image FileName="-1530266584" Left="8" Top="111" Right="2568" Bottom="1408" />
+								<TypeInfo Item0="{63CD4862-D2E4-4085-B1E8-F2301D72925A}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://v-portal-ui.vportalstg.koreabuild.com/reservation" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panel" Key="{5B052643-58FB-498B-BBB3-A6C92E1F22DF}">
+										<Image FileName="-1530266584" Left="989" Top="682" Right="1587" Bottom="938" />
+										<TypeInfo Item0="{0284BD22-1461-420E-8C38-BF31DBF07708}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;modal-body&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="button" Key="{D0ABEB9C-BF73-473C-ADC0-26F007FA4F6E}">
+										<Image FileName="-1455208787" Left="1024" Top="858" Right="1094" Bottom="898" />
+										<TypeInfo Item0="{E8CAD894-6E62-4F86-8D1E-0741E40CEBAB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;확인&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/div/div[2]/div/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;btn-ok&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;popupNoticeModal&apos;]//div[2]/div/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/div/div[2]/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{2F76D721-9792-47DA-8BE6-03096E1C3E1C}">
+			<Child Name="BrowserWindow" Owner="{E12C84A0-1F04-40C2-AD6E-A57EA4A68365}" />
+			<Child Name="pageLgVisitReservationLg" Owner="{CB8DB9E5-2CAF-4A7B-9398-66BAE496E564}">
+				<Child Name="linkLoginformchanger" Owner="{AC08E71F-3E81-4481-B401-D32D4934E9E2}" />
+				<Child Name="textboxEmailid" Owner="{6A0CE1CB-F90E-403E-9CE9-0AEDD29F2787}" />
+				<Child Name="passwordboxPassword" Owner="{1475923D-D284-4788-B92A-88CD7EE377AF}" />
+			</Child>
+			<Child Name="pageLgVisitReservationLg2" Owner="{4E77A4D5-C9AC-4354-8495-D088CA6BE5E4}">
+				<Child Name="panel" Owner="{5B052643-58FB-498B-BBB3-A6C92E1F22DF}" />
+				<Child Name="button" Owner="{D0ABEB9C-BF73-473C-ADC0-26F007FA4F6E}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
